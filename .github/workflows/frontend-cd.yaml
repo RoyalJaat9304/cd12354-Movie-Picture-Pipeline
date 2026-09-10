@@ -9,7 +9,7 @@ on:
       - 'starter/frontend/**'
 
 env:
-  REACT_APP_MOVIE_API_URL: http://localhost:5000
+  REACT_APP_MOVIE_API_URL: http://ad0cc622dce784c1eacdd8e9609bd02a-290694797.us-east-1.elb.amazonaws.com
   AWS_REGION: us-east-1
   EKS_CLUSTER_NAME: cluster
   ECR_REPOSITORY: frontend
